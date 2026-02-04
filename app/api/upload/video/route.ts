@@ -156,11 +156,7 @@ export async function POST(request: NextRequest) {
     }
 }
 
-// Set max file size (500MB)
-export const config = {
-    api: {
-        bodyParser: {
-            sizeLimit: '500mb',
-        },
-    },
-};
+// Note: File size limit is controlled by Vercel deployment settings
+// For local development, Next.js allows up to 4MB by default
+// To increase in production, add to vercel.json:
+// { "functions": { "api/upload/video": { "maxDuration": 300 } } }
