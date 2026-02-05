@@ -68,7 +68,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <Link href="/" className="relative h-16 w-48 transition-transform group-hover:scale-105">
                         <Image
-                            src="/logo-new.jpg"
+                            src="/logo.png"
                             alt="DesireHub"
                             fill
                             className="object-contain"

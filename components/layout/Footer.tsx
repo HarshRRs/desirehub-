@@ -48,7 +48,7 @@ export default function Footer() {
                         <Link href="/" className="block mb-4">
                             <div className="relative h-12 w-36">
                                 <Image
-                                    src="/logo-new.jpg"
+                                    src="/logo.png"
                                     alt="DesireHub"
                                     fill
                                     className="object-contain"
